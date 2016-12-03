@@ -6,7 +6,6 @@ export ZSH=$HOME/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="babun"
-#ZSH_THEME="agnoster"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -50,7 +49,7 @@ ZSH_THEME="babun"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git autojump zsh-syntax-highlighting)
+plugins=(git)
 
 # User configuration
 
@@ -83,36 +82,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-[[ -s /home/James/.autojump/etc/profile.d/autojump.sh ]] && source /home/James/.autojump/etc/profile.d/autojump.sh
-autoload -U compinit && compinit -u
-
-#export NVM_DIR="/home/James/.nvm"
-#[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-
-
-#export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-#export PATH="$HOME/.rbenv/bin:$PATH"
-#eval "$(rbenv init -)"
-
-export EDITOR='vim'
-
-source ~/bin/tmuxinator.zsh
-source ~/.shortcuts
-
-#export M2_HOME="~/.local/apache-maven-3.3.9"
-#export PATH="$M2_HOME/bin:$PATH"
-
-#export ANT_HOME="~/.local/apache-ant-1.9.7"
-#export PATH="$ANT_HOME/bin:$PATH"
-
-export PATH="~/.local/bin:$PATH"
-export PATH="~/.local/winpty/bin:$PATH"
-
-#export JAVA_HOME="/home/James/Java/jdk1.8.0_92"
-#export PATH="$JAVA_HOME/bin:$PATH"
-
-source '/home/James/.babun-docker/setup.sh'
-
-export HADOOP_HOME=/usr/local/hadoop-2.7.3
-export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
-
