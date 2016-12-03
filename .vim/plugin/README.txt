@@ -1,0 +1,3 @@
+cd PROJECT
+cscope -bR
+
